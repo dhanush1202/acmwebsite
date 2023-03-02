@@ -1,39 +1,37 @@
 import React from "react";
 import "./button.css";
 import Typewriter from "typewriter-effect";
-import "./typewriter.css";
 
 export default function Body1() {
+
+
+
+
+
+  
   return (
-    <div>
-      <div className="container" style={{ marginTop: "5rem" }}>
+    <div style={{background:"#699694"}}>
+      
+      <div className="container" style={{ marginTop: "3.5rem", paddingTop:"6rem", minHeight:"32rem" }}>
         <div className="row">
-          <div className="col-sm-4">
-            <img src="acm_logo.png" alt="" style={{ height: "10rem" }} />
+          <div className="grow col-sm-4">
+            <img src="acm_logo.png" alt="" style={{ width: "15rem" }} />
           </div>
           <div className="col-sm-8 my-4">
             <h2 className="type">
-              
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
 
-                    .typeString("ASSOCIATION FOR COMPUTING MACHINERY STUDENT CHAPTER OF VNRVJIET")
-
-                    .pauseFor(1000)
-                    .deleteAll()
-                    .typeString("We raise by lifting others")
-                    
-                    .pauseFor(1000)
-                    .deleteAll()
-                    
-                    .typeString("ASSOCIATION FOR COMPUTING MACHINERY STUDENT CHAPTER OF VNRVJIET")
+                    .typeString(
+                      "ASSOCIATION FOR COMPUTING MACHINERY STUDENT CHAPTER OF VNRVJIET"
+                    )
 
                     .start();
                 }}
               />
             </h2>
-            <div className="container my-4">
+            <div className="container my-5">
               {/* buttons done */}
 
               <a href="#" className="cta">
@@ -57,6 +55,7 @@ export default function Body1() {
                 </svg>
               </a>
             </div>
+            <h3 style={{textAlign:"center", marginTop:"2rem"}}>WE RISE BY LIFTING OTHERS</h3>
           </div>
         </div>
       </div>
