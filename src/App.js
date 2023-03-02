@@ -12,7 +12,7 @@ function App() {
 
   return (
 
-    <div>
+    <>
     <NavBar/>
     <Body1 className="items"/>
     <Vision/>
@@ -22,7 +22,7 @@ function App() {
     </div>
     <Contact/>
     <Footer/>
-    </div>
+    </>
   );
 }
 
