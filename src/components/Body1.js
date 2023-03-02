@@ -17,6 +17,7 @@ export default function Body1() {
             </h2>
             <div className="container my-4">
 
+              {/* buttons done */}
 
 
               <a href="#" className="cta">
